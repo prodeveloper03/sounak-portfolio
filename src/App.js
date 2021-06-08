@@ -4,7 +4,8 @@ import React from 'react';
 const App = () => {
     return (
 
-            <h1>hi</h1>
+        <h1>Error solved</h1>
+            
 
 
     );
