@@ -63,7 +63,7 @@ const Navbar = () => {
             <NavLink className = "nav-link"
             to = "/contact" exact>
               <i className = "farfa-adress-book">
-              </i>Contact me
+              </i>Contact
             </NavLink>
           </li>
 
