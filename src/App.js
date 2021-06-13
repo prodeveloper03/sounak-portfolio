@@ -26,6 +26,7 @@ const App = () => {
                 <Switch>
                 <Route path = "/" exact>
                         <Home/>
+                            
                         <img src = "homeImg.jpg" width = "100%" height = "100%"/>
                     </Route>
                     <Route path = "/about" exact>
