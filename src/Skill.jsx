@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skill = () => {
   return(
-    <h>Skills</h>
+    <h1>Skills</h1>
   );
 }
 export default Skill;
