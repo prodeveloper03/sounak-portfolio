@@ -6,5 +6,5 @@ const Home = () => {
     <h>Home</h>
   );
 }
-export default Home
+export default Home;
 
