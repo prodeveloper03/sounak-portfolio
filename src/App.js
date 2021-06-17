@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch ,Route} from 'react-router';
+import { Switch ,Route, Redirect} from 'react-router';
 import Home from './Home'
 import About from './About'
 import Project from './Project'
@@ -15,6 +15,7 @@ const App = () => {
           <Route exact path = "/Project" component = {Project} />
           <Route exact path = "/Skills" component = {Skill} />
           <Route exact path = "/Contact" component = {Contact} />
+          <Redirect to = "/"/>
           
         </Switch>
     

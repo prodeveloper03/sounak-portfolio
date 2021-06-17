@@ -3,7 +3,7 @@ import React from 'react'
 
 const Project = () => {
   return(
-    <h>Projects</h>
+    <h1>Projects</h1>
   );
 }
 export default Project;
