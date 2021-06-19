@@ -59,3 +59,34 @@
 #header .brand-name {
     color: #3498db;
 }
+
+#header h2 {
+    color: bisque;
+    font-size: 24px;
+}
+
+.header-img {
+    text-align: right;
+}
+
+#header.animated {
+    animation: up-down 2s ease-in-out infinite iterative-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
