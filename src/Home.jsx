@@ -25,6 +25,7 @@ const Home = () => {
                     <div className = "col-lg-6 order-1 order-lg-2 header-img">
 
                       <img src = {mobile} className = "img-fluid animated" alt = "home img" />
+              
                         
 
                       </div>
