@@ -65,22 +65,8 @@
     font-size: 24px;
 }
 
-.header-img {
-    text-align: right;
-}
-
 #header.animated {
     animation: up-down 2s ease-in-out infinite iterative-reverse both;
-}
-
-.headerLine {
-    text-align: right;
-}
-
-.headImg {
-    text-align: left;
-    padding-top: 30px;
-    margin-top: 10px;
 }
 
 @-webkit-keyframes up-down {
