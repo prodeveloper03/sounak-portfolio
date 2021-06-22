@@ -10,26 +10,26 @@ const Home = () => {
         <div className = "container-fluid nav_bg">
             <div className = 'row'>
                 <div className = "col-10 mx-auto">
-                  <div className = "col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
+                  <div className = "row">
+                    <div className = "col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
                     <h1>
-                      Hello I am
-                    </h1>
-                    <h1>
-                      <strong>Sounak Saha</strong>
-                    </h1>
-                    <h2 className = "my-3">
-                      APP AND WEB DEVELOPER
-                    </h2>
+                            Hello I am
+                          </h1>
+                          <h1>
+                            <strong className = "brand-name">Sounak Saha</strong>
+                          </h1>
+                          <h2 className = "my-3">
+                            APP AND WEB DEVELOPER
+                          </h2>
+                    </div>
+                    <div className = "col-lg-6 order-1 order-lg-2 header-img">
 
+                      <img src = {mobile} className = "img-fluid animated" alt = "home img" />
+                        
+
+                      </div>
+                    </div>
                   </div>
-                  <div className = "mt-3">
-
-                      <a href = "https://stackoverflow.com/questions/47427696/mx-auto-not-moving-element-to-centre" >Download Resume</a>
-
-                  </div>
-
-
-                </div>
             </div>
          </div>
            
