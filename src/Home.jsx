@@ -6,12 +6,12 @@ import mobile from "../src/images/homeImg.svg"
 const Home = () => {
   return(
     <>
-        <section id = "header" className = "">
+        <section id = "header" className = "d-flex align-item-center">
         <div className = "container-fluid nav_bg">
             <div className = 'row'>
                 <div className = "col-10 mx-auto">
                   <div className = "row">
-                    <div className = "col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
+                    <div className = "col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                     <h1>
                             Hello I am
                           </h1>
