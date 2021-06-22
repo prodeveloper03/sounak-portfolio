@@ -53,16 +53,23 @@
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
+    font-size: xx-large;
     color: black;
 }
 
 #header .brand-name {
     color: #3498db;
+    font-size: 120px;
 }
 
 #header h2 {
     color: bisque;
     font-size: 24px;
+    font-size: xx-large;
+}
+
+.header-img {
+    text-align: center;
 }
 
 #header.animated {
