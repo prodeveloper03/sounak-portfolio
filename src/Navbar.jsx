@@ -1,9 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = () => {
+
+ 
+ 
   return(
-    
+ 
     <div className = "container-fluid nav_bg">
       <div className = 'row'>
         <div className = "col-10 mx-auto">
@@ -52,6 +56,7 @@ const Navbar = () => {
               </div>
            </div>
         </div>
+    
 
   );
 }

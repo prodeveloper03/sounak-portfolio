@@ -72,13 +72,16 @@
     text-align: center;
 }
 
-#header.animated {
-    animation: up-down 2s ease-in-out infinite iterative-reverse both;
+
+/************ABOUT PAGE **************/
+
+#about .about-name {
+    color: White;
+    font-size: 100px;
 }
 
-.linkedin-container {
-    height: 20px;
-    width: 20px;
+#header.animated {
+    animation: up-down 2s ease-in-out infinite iterative-reverse both;
 }
 
 @-webkit-keyframes up-down {
