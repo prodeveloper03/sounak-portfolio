@@ -21,10 +21,12 @@ const Home = () => {
                           <h2 className = "my-3">
                             APP AND WEB DEVELOPER
                           </h2>
+                          
                     </div>
-                    <div className = "col-lg-6 order-1 order-lg-2 header-img">
+                    <div className = "col-lg-6 order-1 order-lg-2 profile-img">
 
                       <img src = {mobile} className = "img-fluid animated" alt = "home img" />
+                      
               
                         
 
