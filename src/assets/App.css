@@ -80,6 +80,17 @@
     font-size: 100px;
 }
 
+#about .about-text {
+    color: #3498db;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+
+/*********** RESPONSIVE ***************/
+
 #header.animated {
     animation: up-down 2s ease-in-out infinite iterative-reverse both;
 }
